@@ -1,105 +1,129 @@
-<!DOCTYPE html>
-<html lang="en-us">
-​
+<!DOCTYPE html5>
+<html5 lang="en-us">
 <head>
   <meta charset="UTF-8">
   <title>Minh Tuan Nguyen</title>
-​
-  <!-- Introducing the Style Tag! -->
-  <!-- ========================== -->
-​
-  <!-- Now you can customize the look of your sites. Each rule in the style tag changes the appearance of its associated element (notice how each rule names an element from the HTML body). -->
   <style>
-    /*
-			NOTE: Commenting is a bit different in CSS. 
-		  They start with forward-slash + asterisk 
-		  and end with back-slash + asterisk.
-		  */
-    /* h1 heading tag */
-    
     h1 {
-      /* Put a 15-pixel margin at the bottom of the heading. */
+      padding-top: 50px;
       margin-bottom: 15px;
-      /* Change the size of your font to 60 pixels high. */
-      font-size: 60px;
-      /* This will color the heading font white. */
-      color: white;
-      /* Align the text to the center of its enclosing element (e.g. div). */
-      text-align: center;
-      /* Underline the text. */
-      text-decoration: none;
-      /* The background of the heading element will now be black. */
-      background-color: mediumseagreen;
+      border-left: 10px;
+      font-size: 50px;
+      color: grey;
+      padding-left: 30px;
+      padding-bottom: 20px;
+      text-align: left;
+      text-decoration: bold;
+      background-color: lightpink;
     }
-    /* h2 heading tags */
     
     h2 {
-      /* Put a 15-pixel margin at the top of all h2 headings. */
       margin-top: 15px;
       margin-bottom: 15px;
       font-size: 40px;
       text-align: center;
+      color:grey;
     }
-    /* h3 heading tags */
-    
-    h3 {
+    .hisSkillstitle {
       margin-top: 15px;
-      font-size: 20px;
+      font-size: 30px;
       text-align: center;
+      color: grey;
+      margin-left: -75px;
     }
-    /* All img tags */
-    
+
     img {
-      /* 
-				Center a block element in the middle of its enclosing tag.
-				When you use the "auto" rule on both left and right margins, 
-				your browser will do the math necessary to center a block element.
-				*/
-      margin-left: auto;
+      width: 350px;
+      height: 450px;
+      position: absolute;
+      top: 250px;
+      left: 20px;
+      margin-left: 30px;
       margin-right: auto;
-      /* Block display (more on this later) */
+      margin-top: 0px;
       display: block;
+      align: left;
     }
-    /* All p tags */
     
     p {
-      text-align: center;
+      margin-left: 500px;
+      text-align: left;
       font-size: 20px;
-      /* Bold the text. */
-      font-weight: bold;
+      font-weight: none;
+      display: inline-block:
+      font-family: 'Raleway', sans-serif;
     }
-    /* All unordered list tags */
     
-    ul {
-      text-align: center;
+    .contactLinks {
+      text-align: left;
+      right: 10px;
       font-size: 35px;
-      /* Give an element a solid border. */
       border-style: solid;
-      /* Render the border 5 pixels thick. */
       border-width: 5px;
-      /* Include bullets in the content flow. */
-      /* More info here: http://www.w3schools.com/cssref/pr_list-style-position.asp */
+      border-color: lightpink;
+      margin-top: 0px;
+      margin-left: 350px;
+      margin-right: 100px;
       list-style-position: inside;
+      font-family: raleway;
+    }
+    .hisSkills{
+      font-size: 20px;
+      margin-left: 500px;
+      font-family: helvetica;
+      
+    }
+    .seeMyworks{
+      font-size: 35px; 
+      color: white;
+      border-color: lightpink;
+      background-color: lightpink;
+      border-width: 5px;
+      margin-top: 30px;
+      margin-left: 250px
+    }
+    .getIntouch{
+      font-size: 35px; 
+      font-color: grey;
+      color: white;
+      border-color: lightpink;
+      background-color: lightpink;
+      border-width: 5px;
+      margin-top: 30px;
+      margin-left: 50px
     }
   </style>
 </head>
-​
+
 <body>
-​
   <h1>Minh Tuan Nguyen</h1>
-  <h2>Digital Marketing/ Ux/Ui</h2>
-  <h3>About Me</h3>
+  <h2>About Minh</h2>
+  <p>Minh Tuan Nguyen is a UX/UI Designer and Marketing/ Branding Specialist from Dallas, 
+Texas, USA with more than 4 years of professional experiences from United Kingdom, 
+Vietnam and United States of America. In 2016, he graduated with Merits in Master of Marketing Communications from University of Westminster, London, UK. That may seem 
+like centuries ago in internet years, but don’t worry, this hyperbolic old dog is on top of all the new tricks. He is currently available for freelance projects.</p>
+ 
+  <img src=<a href='https://postimg.cc/8j3tJ9hM' target='_blank'><img src='https://i.postimg.cc/8j3tJ9hM/me.jpg' border='0' alt='me'/></a>
 ​
-  <p>something about me and how i got in UX/UI</p>
-  <img src="images/me.jpg" alt="Awesome" width="25%">
-​
-  <h3>Menu Links</h3>
-  <ul>
-    <li><a href="https://www.google.com">Google</a></li>
-    <li><a href="https://www.facebook.com">Facebook</a></li>
-    <li><a href="https://www.twitter.com">Twitter</a></li>
+  <section>
+  <h3 class=hisSkillstitle>His skills</h3>
+    <div class="hisSkills">
+    <UL>
+      <li>Digital expert with global marketing experience</li>
+      <li>UX, UI</li>
+      <li>User Research</li>
+    </UL>
+    <ul class="contactLinks">
+    <li><a href="https://www.google.com">Resume</a></li>
+    <li><a href="https://www.facebook.com">linkedin</a></li>
+    <li><a href="https://www.twitter.com">Instagram</a></li>
   </ul>
-​
+    </div>
+  </section>
+  <div>
+  <button class="seeMyworks">See my works</button>
+
+  <button class="getIntouch">Get in Touch</button>
+  </div>
 </body>
-​
-</html>
+</html5>
