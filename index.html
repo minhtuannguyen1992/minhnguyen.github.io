@@ -2,128 +2,56 @@
 <html5 lang="en-us">
 <head>
   <meta charset="UTF-8">
-  <title>Minh Tuan Nguyen</title>
-  <style>
-    h1 {
-      padding-top: 50px;
-      margin-bottom: 15px;
-      border-left: 10px;
-      font-size: 50px;
-      color: grey;
-      padding-left: 30px;
-      padding-bottom: 20px;
-      text-align: left;
-      text-decoration: bold;
-      background-color: lightpink;
-    }
-    
-    h2 {
-      margin-top: 15px;
-      margin-bottom: 15px;
-      font-size: 40px;
-      text-align: center;
-      color:grey;
-    }
-    .hisSkillstitle {
-      margin-top: 15px;
-      font-size: 30px;
-      text-align: center;
-      color: grey;
-      margin-left: -75px;
-    }
-
-    img {
-      width: 350px;
-      height: 450px;
-      position: absolute;
-      top: 250px;
-      left: 20px;
-      margin-left: 30px;
-      margin-right: auto;
-      margin-top: 0px;
-      display: block;
-      align: left;
-    }
-    
-    p {
-      margin-left: 500px;
-      text-align: left;
-      font-size: 20px;
-      font-weight: none;
-      display: inline-block:
-      font-family: 'Raleway', sans-serif;
-    }
-    
-    .contactLinks {
-      text-align: left;
-      right: 10px;
-      font-size: 35px;
-      border-style: solid;
-      border-width: 5px;
-      border-color: lightpink;
-      margin-top: 0px;
-      margin-left: 350px;
-      margin-right: 500px;
-      list-style-position: inside;
-      font-family: raleway;
-    }
-    .hisSkills{
-      font-size: 20px;
-      margin-left: 500px;
-      font-family: helvetica;
-      
-    }
-    .seeMyworks{
-      font-size: 35px; 
-      color: white;
-      border-color: lightpink;
-      background-color: lightpink;
-      border-width: 5px;
-      margin-top: 30px;
-      margin-left: 250px
-    }
-    .getIntouch{
-      font-size: 35px; 
-      font-color: grey;
-      color: white;
-      border-color: lightpink;
-      background-color: lightpink;
-      border-width: 5px;
-      margin-top: 30px;
-      margin-left: 50px
-    }
-  </style>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 </head>
 
 <body>
-  <h1>Minh Tuan Nguyen</h1>
-  <h2>About Minh</h2>
-  <p>Minh Tuan Nguyen is a UX/UI Designer and Marketing/ Branding Specialist from Dallas, 
-Texas, USA with more than 4 years of professional experiences from United Kingdom, 
-Vietnam and United States of America. In 2016, he graduated with Merits in Master of Marketing Communications from University of Westminster, London, UK. That may seem 
-like centuries ago in internet years, but don’t worry, this hyperbolic old dog is on top of all the new tricks. He is currently available for freelance projects.</p>
- 
-  <img src=<a href='https://postimg.cc/8j3tJ9hM' target='_blank'><img src='https://i.postimg.cc/8j3tJ9hM/me.jpg' border='0' alt='me'/></a>
-​
-  <section>
-  <h3 class=hisSkillstitle>His skills</h3>
-    <div class="hisSkills">
-    <UL>
-      <li>Digital expert with global marketing experience</li>
-      <li>UX, UI</li>
-      <li>User Research</li>
-    </UL>
-    <ul class="contactLinks">
-    <li><a href="https://www.google.com">Resume</a></li>
-    <li><a href="https://www.facebook.com">linkedin</a></li>
-    <li><a href="https://www.twitter.com">Instagram</a></li>
-  </ul>
+  <section id=firstPage>
+    <h1>Minh Tuan Nguyen</h1>
+    <div class="sideNav" style="width:25%">
+            <a href="#" class="sideNav">about me</a>
+            <a href="#" class="sideNav">projects</a>
+            <a href="#" class="sideNav">resume</a>
+            <a href="#" class="sideNav">contacts</a>
     </div>
-  </section>
-  <div>
-  <button class="seeMyworks">See my works</button>
+    <div>
+     
+  <button class=aboutMeButton>
+      <a href="#" class="linkButton">about me</a>
+  </button>
+</div>
+  <img class=me src='https://i.postimg.cc/8j3tJ9hM/me.jpg' />
+</section>
 
-  <button class="getIntouch">Get in Touch</button>
+  <section id=Paragraph>
+  <h3>about me</h3>
+  <div class=iAm>
+  <p>I am  a UX/UI Designer and Marketing/ 
+      Branding Specialist from Dallas, Texas, 
+      USA with more than 4 years of professional 
+      experiences from United Kingdom, Vietnam 
+      and United States of  America. </p>
   </div>
+  <div class=iGrad>
+   <p class=iGrad>In 2016, I graduated with Merits in 
+      Master of Marketing Communications 
+      from University of Westminster, London,
+      UK. That may seem like centuries ago in 
+      internet years, but don’t worry, this 
+      hyperbolic old dog is on top of all 
+      the new tricks.</p>
+  </div>
+    <button class=myProjects>My Projects</button>
+    <button class=resume>Resume</button>
+    
+  </section>
+
 </body>
+<footer>
+  <div class=icon>
+      <img src="images/github.png" width="50" height="50" />
+      <img class= linkedin src="images/linkedin.png" width="50" height="50"/>
+    </div>
+</footer>
 </html5>

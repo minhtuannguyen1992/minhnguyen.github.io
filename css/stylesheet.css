@@ -1,0 +1,136 @@
+body{
+  background-color: 	#FFA8A7;
+}
+#firstPage{
+display: grid; 
+grid-template-columns: repeat(9, 1fr); 
+grid-template-rows: repeat(7, 1fr); 
+grid-column-gap: 0px;
+grid-row-gap: 0px; 
+}
+h1{
+  background-color: 	#FFA8A7;
+  color: #096287;
+  font-size:50px;
+  padding:10px;
+  grid-area: 1 / 1 / 2 / 5;
+}
+.sideNav{
+width: 200px; /* Set a width if you like */
+grid-area: 3 / 1 / 4 / 2;
+}
+.sideNAv a {
+  background-color:	#FFA8A7; /* Grey background color */
+  color: lightslategray; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.sideNAv a:hover {
+  background-color: whitesmoke; /* Dark grey background on mouse-over */
+}
+
+.sideNav a.active {
+  background-color: #4CAF50; /* Add a green color to the "active/current" link */
+  color: white;
+}
+.me{ 
+  grid-area: 4 / 4 / 4 / 5;
+}
+.aboutMeButton{
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    margin: 4px 2px;
+    transition: 0.3s;
+    text-decoration: none;
+    grid-area: 7 / 8 / 8 / 9;
+  }
+  
+  .aboutMeButton:hover {
+    background-color: #3e8e41;
+    color: white;
+  }
+.linkButton{}
+#paragraph { 
+  display: grid; 
+  grid-template-columns: repeat(5, 1fr); 
+  grid-template-rows: repeat(5, 1fr); 
+  grid-column-gap: 0px;
+  grid-row-gap: 0px; 
+  }
+
+h3{
+  grid-area: 2 / 5 / 3 / 6;
+  font-size: 18px;
+  color: lightslategray;
+}
+
+.iAm{
+  color: white;
+  text-align: left;
+  padding: 14px 20px;
+  text-decoration: none;
+  width: 200px;
+  grid-area: 3 / 2 / 4 / 3; }
+.iGrad{
+  
+  color: white;
+  text-align: left;
+  padding: 14px 20px;
+  text-decoration: none;
+  width: 200px;
+  grid-area: 4 / 3 / 5 / 4;
+}
+.myProjects{
+  background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    margin: 4px 2px;
+    transition: 0.3s;
+    text-decoration: none;
+    position: absolute;
+    bottom: 300px;
+    right: 0px;
+    font-size: 18px;
+    grid-area: 3 / 5 / 4 / 6;
+}
+  
+  .myProjects:hover {
+    background-color: #3e8e41;
+    color: white;
+  }
+.resume{
+  background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    margin: 4px 2px;
+    transition: 0.3s;
+    text-decoration: none;
+    position: absolute;
+    bottom: 200px;
+    right: 0px;
+    font-size: 18px;
+    grid-area: 4 / 5 / 5 / 6; 
+}
+  
+.resume:hover {
+    background-color: green;
+    color: white;
+  }
+
+  
+}
+.icon{
+  position:absolute;
+  bottom: 0px;
+  left: 10px;
+  width: 100px;
+}
